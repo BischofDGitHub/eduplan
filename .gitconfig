@@ -1,0 +1,9 @@
+[user]
+    name = Dein Name
+    email = deine.email@example.com
+
+[core]
+    autocrlf = true
+
+[color]
+    ui = auto

@@ -1,0 +1,20 @@
+# Setzt standardmäßig alle Dateien auf Text und konvertiert Zeilenumbrüche
+* text=auto
+
+# Sicherstellen, dass JavaScript, JSON und andere Textdateien korrekt behandelt werden
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+
+# Sicherstellen, dass CSS, SCSS und andere Stylesheets auch mit LF-Endungen gespeichert werden
+*.css text eol=lf
+*.scss text eol=lf
+
+# Sicherstellen, dass Markdown-Dateien mit LF gespeichert werden
+*.md text eol=lf
+
+# Verhindert Umbruch-Konvertierungen für Binärdateien wie Bilder
+*.png binary
+*.jpg binary
+*.gif binary
+*.svg binary
