@@ -1,3 +1,4 @@
+import Menu from "@/components/molecules/Menu";
 import "./globals.css";
 
 export default function RootLayout({
@@ -7,7 +8,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body>
+        <Menu />
+        {children}
+      </body>
     </html>
   );
 }
