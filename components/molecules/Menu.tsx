@@ -7,7 +7,7 @@ import NavBar from "../atoms/NavBar";
 type Props = {};
 
 export default function Menu({}: Props) {
-  const [showSideBar, setShowSideBar] = useState<string>("w-5/6");
+  const [showSideBar, setShowSideBar] = useState<string>("w-full");
 
   return (
     <>
