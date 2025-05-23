@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import SideBar from "../atoms/SideBar";
 import NavBar from "../atoms/NavBar";
+import TestTest from "@/components/atoms/TestTest";
 
 type Props = {};
 
@@ -12,11 +13,13 @@ export default function Menu({}: Props) {
   return (
     <>
       <SideBar />
+
       <nav className="w-screen flex justify-end">
         <div
-          className={`bg-white duration-400 ${showSideBar} flex justify-end fixed z-2`}
+          className={`bg-white duration-400 ${showSideBar} flex justify-end fixed z-2 h-screen`}
         >
           <NavBar />
+          <TestTest title="testxyz" />
           <div
             className="p-2 hover:cursor-pointer bg-gray-300 rounded-md"
             onClick={() => {
