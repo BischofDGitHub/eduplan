@@ -1,9 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
-import SideBar from "../atoms/SideBar";
+import { useState } from "react";
 import NavBar from "../atoms/NavBar";
-import TestTest from "@/components/atoms/TestTest";
+import SideBar from "../atoms/SideBar";
 
 type Props = {};
 
@@ -19,7 +18,6 @@ export default function Menu({}: Props) {
           className={`bg-white duration-400 ${showSideBar} flex justify-end fixed z-2 h-screen`}
         >
           <NavBar />
-          <TestTest title="testxyz" />
           <div
             className="p-2 hover:cursor-pointer bg-gray-300 rounded-md"
             onClick={() => {
