@@ -9,8 +9,10 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body>
-        <Menu />
-        {children}
+        <Menu>
+          <div className="p-8 border border-black bg-amber-500">skibidi</div>
+          {children}
+        </Menu>
       </body>
     </html>
   );
